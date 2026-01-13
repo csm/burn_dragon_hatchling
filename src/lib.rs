@@ -15,6 +15,7 @@ pub mod viz;
 pub mod wgpu;
 #[cfg(all(target_arch = "wasm32", feature = "web"))]
 pub mod web;
+pub mod audio;
 
 pub use config::{ContextStrategyConfig, GenerationConfig, ModelOverrides, TrainingHyperparameters};
 #[cfg(feature = "train")]
